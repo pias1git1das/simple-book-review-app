@@ -12,7 +12,7 @@ for server run under the main base folder: npm start
 
 
 The project is designed using MVC pattern.
-Rest api are on server.js file.
+Rest api are on index.js file.
 
 Under client folder, client code will be found.
 
