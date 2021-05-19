@@ -1,0 +1,25 @@
+# README
+
+This is a simple Book Review System.
+
+Frontend: React Hook 
+Backend: Express JS, MongoDB
+
+
+Run instructions:
+for client run under client folder: npm start
+for server run under the main base folder: npm start
+
+
+The project is designed using MVC pattern.
+Rest api are on server.js file.
+
+Under client folder, client code will be found.
+
+MongoDB schema/Model: Review, User, Book
+When a user submit a review, that review model has FK depedency with User and book table.
+So review table schema is like, reviewText, userId(object of user schema), bookId(object of Book schema), date.
+
+When a user add a book , a book can also be edited, deleted.
+
+Moongoose is used to design the schema & also query the schema.
