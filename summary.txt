@@ -21,5 +21,7 @@ When a user submit a review, that review model has FK depedency with User and bo
 So review table schema is like, reviewText, userId(object of user schema), bookId(object of Book schema), date.
 
 When a user add a book , a book can also be edited, deleted.
+For each & every model, a date timestamp added to sort based on date.
+
 
 Moongoose is used to design the schema & also query the schema.
