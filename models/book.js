@@ -14,7 +14,8 @@ const bookSchema = new mongoose.Schema({
   tag: {
     type: String,
     required: [true, "Tag is required"]
-  }
+  },
+  date: { type: Date, default: Date.now }
 });
 
 module.exports = mongoose.model('Book', bookSchema); 

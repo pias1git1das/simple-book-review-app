@@ -29,7 +29,7 @@ function BookAdd(props) {
 
   return ( 
     <div>
-      <h1>Create Article</h1>
+      <h1>Add Book</h1>
       <hr/>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
